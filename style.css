@@ -1,0 +1,535 @@
+:root{
+    --main : #e4a322,
+}
+
+.my-dropdown {
+    background: white;
+    color: black;
+    width: 80%;
+    border: none;
+}
+.span-point{
+    color: #e4a322;
+}
+
+.my-a1{
+    color: black;
+    text-decoration: none;
+}
+
+.div1{
+    height: 50px;
+    border-bottom : 1px solid gray;
+}
+
+.div2{
+    height: 50px;
+    border-right: 1px solid grey;
+}
+
+.my-span{
+    margin-left: 10px ;
+}
+
+
+.my-tot{
+    margin-top: 13px;
+    font-size: 25px;
+}
+
+.bg-button{
+    background-color: #e4a322;
+    border: none;
+    margin-left:-50px;
+    width: 50px;
+}
+
+.w-search{
+    width: 500px;
+}
+
+
+
+.div-shop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.p-right{
+    padding-right: 20px;
+}
+
+.m-top{
+    margin-top: 13px;
+}
+
+.font-icons{
+    font-size: 20px;
+}
+
+.p-i{
+    
+    width: 153px;
+   
+}
+
+.p-ix{
+   
+    width : 220px;
+}
+
+
+.div3{
+   border-right: 1px solid grey;
+}
+
+/* CAROSELLO */
+
+.colonna{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 300px;
+
+}
+
+.bg1-carousel{
+    background: url('./img/hero-1.jpg');
+    height: 70vh;
+
+}
+
+.bg2-carousel{
+    background: url('./img/hero-2.jpg');
+    height: 70vh;
+}
+
+/* 3 card */
+
+.bg-card1{
+    background: url('./img/banner-1.jpg');
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-btn-card{
+    background: white;
+    font-size: 25px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.babbo{
+    height: 230px;
+    width: 400px;
+    border-color:  #ffffff96;
+}
+
+.babbo:hover{
+   /*  background-color: rgba(0, 255, 255, 0.034); */
+    /* transition: ease-out; */
+    position: absolute;
+   /*  left: 35px;
+    top: 30px; */
+    border: 13px solid #ffffff96;
+    /* content: ""; */
+    opacity: 0.3;
+    
+    transition: all 0.3s;
+    
+  
+}
+
+.bg-card2{
+    background: url('./img/banner-2.jpg');
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.bg-card3{
+    background: url('./img/banner-3.jpg');
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cf1{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+ 
+.bg-card4{
+    background: url('./img/products/women-large.jpg') ;
+    height: 630px;
+    margin-left: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    flex-direction: column;
+}
+
+.bg-conF{
+    height: 70vh;
+    background: url('./img/time-bg.jpg');
+}
+
+
+ /* CAROSELLO JS */
+ .swiper {
+    width: 80%;
+    height: 600px;
+  }
+
+  .bg-car1{
+    background: url('./img/products/women-1.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+  }
+  .bg-car2{
+    background: url('./img/products/women-2.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+  }
+
+  .bg-car3{
+    background: url('./img/products/women-3.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+  }
+  .bg-car4{
+    background: url('./img/products/women-4.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+  }
+
+.my-ul{
+    color: gray;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    list-style-type:none;
+}
+
+.puntini-3{
+    margin-bottom: -15px;
+}
+
+
+
+.my-link-car{
+    color: gray;
+    text-decoration:none;
+}
+
+.my-link-car:hover{
+    color: black;
+    zoom: 1.1;
+    text-decoration: underline;
+    transition: all 0.5;
+}
+
+
+/* carosello da uomo */
+.bg-carMan1{
+    background: url('./img/products/man-1.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+.bg-carMan2{
+    background: url('./img/products/man-2.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+}
+.bg-carMan3{
+    background: url('./img/products/man-3.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+}
+.bg-carMan4{
+    background: url('./img/products/man-4.jpg');
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+  }
+
+  .bgIMG-carMan{
+    background: url('./img/products/man-large.jpg') ;
+    height: 630px;
+    margin-left: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    flex-direction: column;
+}
+.my-pCar{
+    border-bottom: 2px solid white;
+
+}
+
+
+.div-slides{
+    display: flex;
+    margin-top:-35px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-sale{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 17px;
+}
+
+
+
+.sale-div{
+    
+    color: white;
+    text-align: center;
+    background-color: green;
+    width: 50px;
+    height: 30px;
+}
+
+.sale-pos{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+ .offert-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-h2-offer{
+    font-size: 40px;
+}
+
+.my-p-offer{
+    font-size: 17px ;
+    color: gray;
+}
+
+.count-btn{
+    color: white;
+    background-color: #e4a322;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.bg-insta1{
+    background: url('./img/insta-1.jpg');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    
+}
+
+.insta-item{
+       
+    position: relative;
+    transition: all 0,3s; 
+    visibility: hidden; 
+    opacity: 0;
+    
+}
+.bg-insta1:hover{
+    background: linear-gradient( red)
+
+}
+      
+
+.mario:hover .insta-item{
+    
+    visibility: visible;
+    opacity: 0.8;
+    transition: all 0.4s;
+    background-color: red;
+     
+} 
+
+
+.bg-insta2{
+    background: url('./img/insta-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+.bg-insta3{
+    background: url('./img/insta-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+.bg-insta4{
+    background: url('./img/insta-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+.bg-insta5{
+    background: url('./img/insta-5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+.bg-insta6{
+    background: url('./img/insta-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+
+}
+
+.insta-margin{
+    margin-top: 80px;
+}
+
+.blog-bord{
+    border-bottom: 3px #e4a322 solid;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+}
+
+.icons-bg{
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+    
+}
+
+.mar-div-end{
+    margin-top: 100px!important;
+    border: gray 1px solid;
+}
+
+.mar-end{
+    padding-top: 10px;
+    margin-left: 100px;
+}
+.div-end{
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+
+.bordicino{
+    border-right: gray 1px solid;
+    padding-right: 60px;
+}
+
+/* footer */
+
+.bg-foot1{
+    background-color: rgb(59, 59, 59);
+    height: 100px;
+}
+
+.bg-foot2{
+    height: 300px;
+}
+
+.logo-fot{
+    /* display: flex;
+    align-items: center; */
+    margin-left: 100px;
+    width: 190px;
+    padding-top: 25px;
+}
+.logo-fot1{
+    padding-top: 25px;
+    width: 150px;
+}
+
+.foot-dec{
+    list-style-type:none
+}
+
+.heart-color{
+    color: red;
+}
+
+.border-footer{
+    border-top: 1px solid grey;
+}

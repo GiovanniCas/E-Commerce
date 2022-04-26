@@ -1,0 +1,21 @@
+.b-line{
+    border-bottom: 1px lightgray solid;
+    height: 60px;
+}
+
+.par-show{
+    width: 100%;
+}
+
+.drop-dw{
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    margin-right: 15px;
+}
+
+
+.acc-bor{
+    border: none;
+    background-color: white;
+}
